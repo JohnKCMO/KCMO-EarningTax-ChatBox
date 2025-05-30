@@ -20,5 +20,5 @@ WORKDIR /app
 EXPOSE 8000
 
 # Start Plumber API
-CMD [\"Rscript\", \"entrypoint.R\"]
+CMD Rscript entrypoint.R
 
